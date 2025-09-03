@@ -1,0 +1,30 @@
+.body{
+    background-color: #BC9B78;
+    margin: 0;
+}
+
+.head{
+    background-color: #987455;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-right: 300px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+}
+
+.head-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+
+.head-image{
+    width: 200px;
+    height: 195px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
