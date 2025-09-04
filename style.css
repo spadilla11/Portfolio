@@ -8,9 +8,9 @@
     border-bottom-right-radius: 150px;
     border-top-right-radius: 150px;
     margin-right: 300px;
-    padding-right: 45px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 0px;
 
     display: flex;
@@ -23,7 +23,8 @@
 .head-text{
     font-family: Abhaya Libre;
     font-size: 40px;
-    
+    color: #E7D3B3;
+    margin-right: 90px;
 }
 
 .head-image{
@@ -36,11 +37,18 @@
 #motto{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    padding-top: -90px;
+    padding-top: 0px;
 }
 
 .aboutme{
     margin-left: 50px;
+}
+
+.aboutmeheading{
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    color: #E7D3B3;
+
 }
 
 .technicalskills{
@@ -59,7 +67,12 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
+.skill-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .skill:hover{
@@ -87,4 +100,12 @@
     margin-right: 300px;
     padding: 40px;
     padding-left: 50px;
+}
+
+.contact-info{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    ;
 }
