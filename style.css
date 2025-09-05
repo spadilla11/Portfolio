@@ -9,8 +9,8 @@
     border-top-right-radius: 150px;
     margin-right: 300px;
     padding-right: 80px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 0px;
 
     display: flex;
@@ -22,14 +22,14 @@
 
 .head-text{
     font-family: Abhaya Libre;
-    font-size: 40px;
+    font-size: 50px;
     color: #E7D3B3;
-    margin-right: 90px;
+    margin-right: 100px;
 }
 
 .head-image{
-    width: 230px;
-    height: 215px;
+    width: 250px;
+    height: 230px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -42,17 +42,28 @@
 
 .aboutme{
     margin-left: 50px;
+    margin-right: 200px;
+    font-size: 20px;
+    color: #664127;
 }
 
 .aboutmeheading{
     font-family: Abhaya Libre;
     font-size: 30px;
-    color: #E7D3B3;
+    color: #664127
 
+}
+
+.technicalskillsheading{
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    color: #664127
 }
 
 .technicalskills{
     margin-left: 50px;
+    color: #987455
+    
 }
 
 .skill{
@@ -85,11 +96,14 @@
 
 .projects{
     margin-left: 50px;
+    color: #664127;
+    font: Abhaya Libre;
+    font-size: 30px;
 }
 
 .project-image{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin: 20px;
 }
 
@@ -100,6 +114,8 @@
     margin-right: 300px;
     padding: 40px;
     padding-left: 50px;
+    font-family: abhaya libre;
+    color: #664127;
 }
 
 .contact-info{ 
@@ -107,5 +123,4 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
-    ;
 }
