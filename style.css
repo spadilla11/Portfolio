@@ -12,11 +12,11 @@
     margin-right: 300px;
     padding-right: 80px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     padding-left: 0px;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 100px;
     flex-wrap: wrap-reverse;
     flex-direction: row-reverse;
@@ -53,11 +53,23 @@
     font-size: 30px;
 }
 
+.aboutme-text{
+    font-family: abhaya libre;
+    font-size: 20px;
+    color: #664127;
+    margin-right: 100px;
+}
+
 .technicalskills{
     margin-left: 50px;
     color: #664127;
 }
 
+.technicalskillsheading{
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
 .skill{
     background-color: #E7D3B3;
     width: 200px;
@@ -68,14 +80,14 @@
     text-align: center;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .skill-boxes{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
 }
 
 .skill:hover{
@@ -86,18 +98,15 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-skill-logo{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .projects{
     margin-left: 50px;
     color: #664127;
+}
+
+.projectsheading{
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .project-image{
