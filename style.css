@@ -13,13 +13,13 @@
     padding-left: 0px;
 
     display: flex;
-    gap: 17.5%;
+    gap: 17%;
     
 }
 
 .head-text{
     font-family: Abhaya Libre;
-    font-size: 40px;
+    font-size: 250%;
     color: #E7D3B3;
     margin-left: 6%;
 }
