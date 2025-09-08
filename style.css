@@ -102,7 +102,7 @@
     color: #664127;
 }
 
-.projectsheading{
+#projects_heading{
     font-family: Abhaya Libre;
     font-size: 30px;
     margin-bottom: 10px;
@@ -120,6 +120,8 @@
     height: 285px;
     background-repeat: no-repeat;
     margin-left: 50px;
+    color: #E7D3B3;
+    display: inline-block;
 }
 
 .project-description{
