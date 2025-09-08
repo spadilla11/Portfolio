@@ -5,12 +5,12 @@
 
 .head{
     background-color: #987455;
-    border-bottom-right-radius: 150px;
-    border-top-right-radius: 150px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
     margin-right: 20%;
     padding-right: 10%;
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding-top: 4%;
+    padding-bottom: 4%;
     padding-left: 0px;
 
     display: flex;
@@ -33,7 +33,7 @@
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 3%;
-    margin-right: 0%;
+    margin-left: 13%;
 }
 
 #motto{
