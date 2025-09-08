@@ -135,10 +135,15 @@
     background-color: #E7D3B3;
     border-bottom-right-radius: 150px;
     border-top-right-radius: 150px;
-    margin-right: 300px;
-    padding: 40px;
-    padding-left: 50px;
+    margin-right: 20%;
+    padding: 2%;
     color: #664127;
+}
+
+.contactmetext{
+    font-family: Abhaya Libre;
+    font-size: 120%;
+    margin-left: 6%;
 }
 
 .contact-info{ 
@@ -146,5 +151,6 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    
 }
 
