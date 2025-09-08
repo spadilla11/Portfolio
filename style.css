@@ -7,8 +7,6 @@
     background-color: #987455;
     border-bottom-right-radius: 150px;
     border-top-right-radius: 150px;
-    max-width: 100%;
-    margin-block-end: 10px;
     margin-right: 300px;
     padding-right: 80px;
     padding-top: 25px;
@@ -27,6 +25,7 @@
     font-size: 40px;
     color: #E7D3B3;
     margin-right: 10%;
+
 }
 
 .head-image{
@@ -137,6 +136,7 @@
     margin-right: 300px;
     padding: 40px;
     padding-left: 50px;
+    color: #664127;
 }
 
 .contact-info{ 
