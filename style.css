@@ -8,7 +8,6 @@
     border-bottom-right-radius: 200px;
     border-top-right-radius: 200px;
     margin-right: 20%;
-    padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 0px;
 
@@ -25,8 +24,8 @@
 }
 
 .head-image{
-    width: 26%;
-    height: 22%;
+    width: 22.5%;
+    height: 25%;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 3%;
