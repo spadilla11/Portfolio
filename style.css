@@ -23,8 +23,6 @@
     font-size: 40px;
     color: #E7D3B3;
     margin-left: 6%;
-    margin-right: 10%;
-
 }
 
 .head-image{
@@ -33,7 +31,7 @@
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 3%;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
 #motto{
