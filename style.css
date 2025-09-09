@@ -100,6 +100,7 @@
 .projects{
     margin-left: 50px;
     color: #664127;
+    font-family: abhaya libre;
 }
 
 #projects_heading{
@@ -108,27 +109,37 @@
     margin-bottom: 10px;
 }
 
-.project-image{
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-}
 
 .project{
     background-image: url(images/erasebg-transformed-2.png);
-    width: 290px;
-    height: 285px;
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     margin-left: 50px;
     color: #E7D3B3;
     display: inline-block;
 }
 
-.project-description{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+#each-project-heading{
+    font-family: Abhaya Libre;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    /* text-decoration: none; */
     color: #E7D3B3;
-    text-align: center;    
+
+}
+
+.project-description{
+    font-family: Abhaya Libre;
+    font-size: 90%;
+    color: #E7D3B3;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 15%;
+
 }
 
 .contactme{
