@@ -102,6 +102,7 @@
     font-family: abhaya libre;
 }
 
+
 #projects_heading{
     font-family: Abhaya Libre;
     font-size: 30px;
@@ -117,14 +118,15 @@
     margin-left: 50px;
     color: #E7D3B3;
     display: inline-block;
+
 }
 
 #each-project-heading{
     font-family: Abhaya Libre;
     font-size: 150%;
     text-align: center;
-    margin-top: 15%;
     margin-bottom: 0%;
+    margin-top: 80px;
     color: #E7D3B3;
 
 }
@@ -136,10 +138,16 @@
     text-align: center;
     margin-left: 18%;
     margin-right: 18%;
-    margin-top: 15%;
-
+    margin-top: 18%;
 }
-
+.project-text{
+    font-family: Abhaya Libre;
+    font-size: 90%;
+    color: #E7D3B3;
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
 .contactme{
     background-color: #E7D3B3;
     border-bottom-right-radius: 150px;
