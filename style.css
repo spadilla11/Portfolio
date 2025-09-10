@@ -227,6 +227,11 @@
         width: 100%;
         margin: 5% 0;
     }
+
+    #contactme{
+        border-radius: 0;
+        margin-right: 0;
+    }
     
 }
 
