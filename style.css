@@ -213,9 +213,10 @@
         height: auto;
     }
 
-    .aboutme, .technicalskills, .contactme{
-        margin-left: 2%;
-        margin-right: 2%;
+    .aboutme, .technicalskills, .projects, .contactme{
+        /* margin-left: 2%;
+        margin-right: 2%; */
+        text-align: center;
     }
 
     .skill{
@@ -228,9 +229,11 @@
         margin: 5% 0;
     }
 
-    #contactme{
+    .contactme{
         border-radius: 0;
         margin-right: 0;
+        margin-left: 0;
+        text-align: center;
     }
     
 }
