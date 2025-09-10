@@ -213,7 +213,7 @@
         height: auto;
     }
 
-    .aboutme, .technicalskills, .projects, .contactme{
+    .aboutme, .technicalskills, .contactme{
         margin-left: 2%;
         margin-right: 2%;
     }
