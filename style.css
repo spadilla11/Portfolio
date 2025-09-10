@@ -11,7 +11,6 @@
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 0px;
-
     display: flex;
     gap: 15%;
     
@@ -41,7 +40,7 @@
 }
 
 .aboutme{
-    margin-left: 50px;
+    margin-left: 4%;
     color: #664127;
     margin-right: 100px;
 }
@@ -59,7 +58,7 @@
 }
 
 .technicalskills{
-    margin-left: 50px;
+    margin-left: 4%;
     color: #664127;
 }
 
@@ -98,7 +97,7 @@
 }
 
 .projects{
-    margin-left: 50px;
+    margin-left: 4%;
     color: #664127;
     font-family: abhaya libre;
 }
@@ -126,7 +125,6 @@
     text-align: center;
     margin-top: 15%;
     margin-bottom: 0%;
-    /* text-decoration: none; */
     color: #E7D3B3;
 
 }
@@ -154,19 +152,37 @@
 .contactmetext{
     font-family: Abhaya Libre;
     font-size: 120%;
-    margin-left: 6%;
+    margin-left: 4%;
 }
 
-.contact-info{ 
+.contact-placement{ 
     display: flex;
     flex-direction: row;
-    gap: 20px;
     flex-wrap: wrap;
-    
 }
 
-#email-icon{
-    width: 2.7%;
-    height: 90%;
+#contact-boxes{
+    color: #E7D3B3;
+    text-decoration: none;
+    background-color: #987455;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+    margin: .5%;
+    text-align: center;
+    padding: 1%;
+    font-family: abhaya libre;
+    font-size: 130%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+#contact-boxes:hover{
+    background-color: #664127;
+    color: #E7D3B3;
+    transform: translateY(-5px);
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
 
