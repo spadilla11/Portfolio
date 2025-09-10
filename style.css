@@ -215,15 +215,10 @@
         height: auto;
     }
 
-    .aboutme{
-        text-align: center;
-        margin-right: 0;
-    }
-
     .skill{
-        width: 70%;
-        height: auto;
-        padding: 1px;
+        width: 60%;
+        height: 60%;
+        padding: 0;
     }
 
     #contact-boxes{
@@ -244,6 +239,7 @@
         align-items: center;
         margin-right: 0;
         margin-left: 0;
+        text-align: center;
     }
 }
 
