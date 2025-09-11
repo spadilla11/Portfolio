@@ -213,7 +213,7 @@
     }
 
     .aboutme{
-        margin-right: 2.5%;
+        margin-right: 3%;
         text-align: center;
         margin-left: 4%;
     }
@@ -229,6 +229,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 2%;
     }
 
     .technicalskillsheading{
