@@ -42,7 +42,7 @@
 .aboutme{
     margin-left: 4%;
     color: #664127;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .aboutmeheading{
@@ -54,7 +54,6 @@
     font-family: abhaya libre;
     font-size: 20px;
     color: #664127;
-    margin-right: 100px;
 }
 
 .technicalskills{
@@ -214,8 +213,9 @@
     }
 
     .aboutme{
+        margin-right: 4%;
         text-align: center;
-        margin-right: 0;
+        margin-left: 4%;
     }
 
     .skill{
