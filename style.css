@@ -113,7 +113,7 @@
   }
   100% {
     /* Translate the width of the original set of boxes */
-    transform: translateX(-60%);
+    transform: translateX(-80%);
   }
 }
 
@@ -178,7 +178,7 @@
   }
   100% {
     /* Translate the width of the original set of boxes */
-    transform: translateX(-60%);
+    transform: translateX(-50%);
   }
 }
 
