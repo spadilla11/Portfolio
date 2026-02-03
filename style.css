@@ -99,12 +99,27 @@
 .technicalskills-list{
     display: flex;
     flex-direction: row;
-    
+
+    animation: scroll-left 15s linear infinite; 
+}
+
+.technicalskills-list:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Translate the width of the original set of boxes */
+    transform: translateX(-60%);
+  }
 }
 
 .skill{
     background-color: #E7D3B3;
-    width: 200px;
+    min-width: 200px;
     height: 100px;
     border-radius: 20px;
     display: inline-block;
@@ -115,6 +130,7 @@
     font-size: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 .skill:hover{
     background-color: #664127;
@@ -148,6 +164,22 @@
     flex-direction: row;
     gap: 2%;
     padding-bottom: 1%;
+
+    animation: scroll-right 20s linear infinite;
+}
+
+.projects-container:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Translate the width of the original set of boxes */
+    transform: translateX(-60%);
+  }
 }
 
 .project-section::-webkit-scrollbar {
@@ -239,22 +271,45 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.head {
-    position: relative; /* THIS is key */
-    left: 0;
-
-    transform: translateX(-120%);
-    opacity: 0;
-
-    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+/* LEFT SLIDE */
+.head,
+.technicalskills,
+.contactme {
+    animation: slideInLeft 0.8s ease-out forwards;
 }
 
-
-.body.loaded .head {
-    transform: translateX(0);
-    opacity: 1;
+/* RIGHT SLIDE */
+.aboutme,
+.project-section {
+    animation: slideInRight 0.8s ease-out forwards;
 }
 
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-350px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(350px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.aboutme { animation-delay: 0.1s; }
+.technicalskills { animation-delay: 0.2s; }
+.project-section { animation-delay: 0.3s; }
+.contactme { animation-delay: 0.4s; }
 
 
 @media screen and (max-width: 767px) {
@@ -353,4 +408,7 @@
     }
     
 }
+
+
+
 
