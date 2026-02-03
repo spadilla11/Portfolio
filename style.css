@@ -13,6 +13,8 @@
     padding-left: 0px;
     display: flex;
     gap: 15%;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.31);
+    border: solid 2px #2a1b10;
 }
 
 .head-text{
@@ -26,6 +28,7 @@
     width: 22.5%;
     height: 25%;
     border-radius: 50%;
+    border: solid 2px #664127;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     margin-top: 3%;
     margin-left: 12%;
@@ -53,12 +56,16 @@
     display: flex;
     flex-direction: column;
     gap: 15%;
+
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.31);
+    border: solid 2px #2a1b10;
 }
 
 .aboutmeheading{
     font-family: Abhaya Libre;
     font-size: 30px;
     text-align: center;
+    color: #664127;
 }
 
 .aboutme-text{
@@ -83,6 +90,8 @@
     padding-left: 2%;
     gap: 15%;
     overflow: auto;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.31);
+    border: solid 2px #2a1b10;
 }
 
 .technicalskills::-webkit-scrollbar {
@@ -94,6 +103,7 @@
     font-size: 30px;
     margin-bottom: 2%;
     text-align: center;
+    color: #E7D3B3;
 }
 
 .technicalskills-list{
@@ -120,15 +130,17 @@
 .skill{
     background-color: #E7D3B3;
     min-width: 200px;
-    height: 100px;
-    border-radius: 20px;
+    border-radius: 30px;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     margin: 2%;
     text-align: center;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.471);
+    border: solid 2px #664127;
 }
 
 
@@ -156,6 +168,8 @@
 
     overflow-x: auto;
     scroll-behavior: smooth;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.31);
+    border: solid 2px #2a1b10;
 
 }
 
