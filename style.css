@@ -171,8 +171,15 @@
     overflow: auto;
 
     scroll-behavior: smooth;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.31);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.909);
     border: solid 2px #2a1b10;
+}
+
+.projects-heading{
+    font-family: Abhaya Libre;
+    font-size: 30px;
+    text-align: center;
+    color: #664127;
 }
 
 #each-project-heading{
@@ -260,7 +267,6 @@
 .flip-card-front {
     background-color: #987455;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
@@ -270,8 +276,10 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Courier New', Courier, monospace;
+    color: #2a1b10;
     padding: 10px;
     transform: rotateY(180deg);
+    overflow: auto;
 }
 
 
@@ -284,6 +292,12 @@
     margin-top: 5%;
     padding: 2%;
     color: #664127;
+    box-shadow: 0px -10px 8px -1px rgba(0, 0, 0, 0.41);
+    border: solid 2px #2a1b10;
+}
+
+.contactme h2 {
+    color: #E7D3B3;
 }
 
 .contactmetext{
@@ -321,14 +335,26 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* LEFT SLIDE */
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEFT SLIDE IN */
 .head,
 .technicalskills,
 .contactme {
     animation: slideInLeft 0.8s ease-out forwards;
 }
 
-/* RIGHT SLIDE */
+/* RIGHT SLIDE IN */
 .aboutme,
 .project-section {
     animation: slideInRight 0.8s ease-out forwards;
@@ -362,8 +388,7 @@
 .contactme { animation-delay: 0.4s; }
 
 
-@media screen and (max-width: 767px) {
-    /* HEAD SECTION */
+@media screen and (max-width: 1000px) {
     .head{
         flex-direction: column;
         align-items: center;
